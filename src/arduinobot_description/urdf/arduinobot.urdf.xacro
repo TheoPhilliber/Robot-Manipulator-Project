@@ -3,9 +3,13 @@
 
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="arduinobot">
 
+    <xacro:arg name="is_ignition" default="false"/>
+
     <xacro:property name="PI" value="3.14159"/>
     <xacro:property name="effort" value="30.0"/>
     <xacro:property name="velocity" value="10.0"/>
+
+
 
     <xacro:macro name="default_inertial" params="mass">
         <inertial>
@@ -196,7 +200,7 @@
         <collision>
             <origin xyz="-0.04 0.5 -0.1" rpy="0 0 -${PI/2}"/>
             <geometry>
-                <mesh filename="package://arduinobot_description/meshes/left_finger.STL" scale="0.01 0.01 0.01"/>
+                <mesh filename="package://arduinobot_description/meshes/pi_camera.STL" scale="0.01 0.01 0.01"/>
             </geometry>
         </collision>   
     </link>
@@ -230,20 +234,15 @@
                     <center>0.5 0.5</center>
                 </distortion>
             </camera>
-
         </sensor>
     </gazebo>
 
     <gazebo>
-        <!-- ROS 2 Iron or above -->
-        <xacro:unless value="$(arg is_ignition)">
-            <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
-            <parameters>$(find arduinobot_controller)/config/arduinobot_controllers.yaml</parameters>
-            </plugin>
-            <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
+        <plugin filename="ignition-gazebo-sensors-system" name="ignition::gazebo::systems::Sensors">
             <render_engine>ogre2</render_engine>
-            </plugin>
-        </xacro:unless>
+        </plugin>
     </gazebo>
+
+
 
 </robot>
