@@ -1,0 +1,31 @@
+[0.191s] Invoking command in '/home/theo/arduinobot_ws/build/arduinobot_utils': CMAKE_PREFIX_PATH=/home/theo/arduinobot_ws/install/arduinobot_msgs:/home/theo/arduinobot_ws/install/arduinobot_utils:/home/theo/arduinobot_ws/install/arduinobot_moveit:/home/theo/arduinobot_ws/install/arduinobot_description:/home/theo/arduinobot_ws/install/arduinobot_cpp_examples:/home/theo/arduinobot_ws/install/arduinobot_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/theo/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy PYTHONPATH=/home/theo/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages:/home/theo/arduinobot_ws/install/arduinobot_utils/lib/python3.12/site-packages:/home/theo/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/theo/arduinobot_ws/build/arduinobot_utils -- -j20 -l20
+[0.204s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.361s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.473s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.479s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.487s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.494s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.559s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.565s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[0.675s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.737s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.738s] -- Found arduinobot_msgs: 0.0.0 (/home/theo/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake)
+[0.750s] -- Found tf2: 0.36.10 (/opt/ros/jazzy/share/tf2/cmake)
+[0.891s] -- Configuring done (0.7s)
+[0.893s] [31mCMake Error at CMakeLists.txt:15 (add_executable):
+[0.893s]   Cannot find source file:
+[0.893s] 
+[0.893s]     src/angle_conversion.cpp
+[0.893s] 
+[0.893s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[0.893s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[0.893s]   .f95 .f03 .hip .ispc
+[0.893s] 
+[0.893s] [0m
+[0.894s] [31mCMake Error at CMakeLists.txt:15 (add_executable):
+[0.894s]   No SOURCES given to target: angle_conversion
+[0.894s] 
+[0.894s] [0m
+[0.894s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.897s] gmake: *** [Makefile:254: cmake_check_build_system] Error 1
+[0.898s] Invoked command in '/home/theo/arduinobot_ws/build/arduinobot_utils' returned '2': CMAKE_PREFIX_PATH=/home/theo/arduinobot_ws/install/arduinobot_msgs:/home/theo/arduinobot_ws/install/arduinobot_utils:/home/theo/arduinobot_ws/install/arduinobot_moveit:/home/theo/arduinobot_ws/install/arduinobot_description:/home/theo/arduinobot_ws/install/arduinobot_cpp_examples:/home/theo/arduinobot_ws/install/arduinobot_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/theo/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy PYTHONPATH=/home/theo/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages:/home/theo/arduinobot_ws/install/arduinobot_utils/lib/python3.12/site-packages:/home/theo/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/theo/arduinobot_ws/build/arduinobot_utils -- -j20 -l20

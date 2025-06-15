@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "arduinobot_msgs")
 set(arduinobot_msgs_VERSION "0.0.0")
-set(arduinobot_msgs_MAINTAINER "theo <theodorephilliber@gmail.com>")
+set(arduinobot_msgs_MAINTAINER "Antonio Brandi <antonio.brandi@outlook.it>")
 set(arduinobot_msgs_BUILD_DEPENDS "rosidl_default_generators" "std_msgs")
 set(arduinobot_msgs_BUILDTOOL_DEPENDS "ament_cmake")
 set(arduinobot_msgs_BUILD_EXPORT_DEPENDS "std_msgs")

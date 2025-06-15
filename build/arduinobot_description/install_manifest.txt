@@ -1,3 +1,5 @@
+/home/theo/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/gazebo.launch.py
+/home/theo/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/display.launch.py
 /home/theo/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/forward_drive_arm.STL
 /home/theo/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/pi_camera.STL
 /home/theo/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/triangular_link.STL
@@ -15,8 +17,6 @@
 /home/theo/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_gazebo.xacro
 /home/theo/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_ros2_control.xacro
 /home/theo/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot.urdf.xacro
-/home/theo/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/gazebo.launch.py
-/home/theo/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/display.launch.py
 /home/theo/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/rviz/display.rviz
 /home/theo/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/package_run_dependencies/arduinobot_description
 /home/theo/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/parent_prefix_path/arduinobot_description
