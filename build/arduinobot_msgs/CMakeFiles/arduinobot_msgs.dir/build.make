@@ -67,6 +67,8 @@ include CMakeFiles/arduinobot_msgs.dir/compiler_depend.make
 include CMakeFiles/arduinobot_msgs.dir/progress.make
 
 CMakeFiles/arduinobot_msgs: /home/theo/arduinobot_ws/src/arduinobot_msgs/srv/AddTwoInts.srv
+CMakeFiles/arduinobot_msgs: /home/theo/arduinobot_ws/src/arduinobot_msgs/srv/EulerToQuaternion.srv
+CMakeFiles/arduinobot_msgs: /home/theo/arduinobot_ws/src/arduinobot_msgs/srv/QuaternionToEuler.srv
 CMakeFiles/arduinobot_msgs: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 
 arduinobot_msgs: CMakeFiles/arduinobot_msgs

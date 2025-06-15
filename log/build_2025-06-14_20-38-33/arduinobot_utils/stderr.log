@@ -1,0 +1,2 @@
+/home/theo/arduinobot_ws/install/arduinobot_utils/lib/python3.12/site-packages/arduinobot_utils/angle_conversion.py:23: SyntaxWarning: 'str' object is not callable; perhaps you missed a comma?
+  self.get_logger().info("Requested to convert quaternion x: %f, y: %f, z: %f, w: %f" (req.x, req.y, req.z, req.w))

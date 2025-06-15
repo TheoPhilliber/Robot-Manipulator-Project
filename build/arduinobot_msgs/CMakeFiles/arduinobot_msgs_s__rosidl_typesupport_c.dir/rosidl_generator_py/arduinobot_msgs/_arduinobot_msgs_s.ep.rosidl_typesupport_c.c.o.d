@@ -234,4 +234,10 @@ CMakeFiles/arduinobot_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/ardui
  /home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_c/arduinobot_msgs/srv/detail/add_two_ints__struct.h \
  /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
- /home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_c/arduinobot_msgs/srv/detail/add_two_ints__functions.h
+ /home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_c/arduinobot_msgs/srv/detail/add_two_ints__functions.h \
+ /home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_c/arduinobot_msgs/srv/detail/euler_to_quaternion__type_support.h \
+ /home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_c/arduinobot_msgs/srv/detail/euler_to_quaternion__struct.h \
+ /home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_c/arduinobot_msgs/srv/detail/euler_to_quaternion__functions.h \
+ /home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_c/arduinobot_msgs/srv/detail/quaternion_to_euler__type_support.h \
+ /home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_c/arduinobot_msgs/srv/detail/quaternion_to_euler__struct.h \
+ /home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_c/arduinobot_msgs/srv/detail/quaternion_to_euler__functions.h

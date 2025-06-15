@@ -51,6 +51,14 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_msgs/srv" TYPE FILE FILES "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_type_description/arduinobot_msgs/srv/EulerToQuaternion.json")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_msgs/srv" TYPE FILE FILES "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_type_description/arduinobot_msgs/srv/QuaternionToEuler.json")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/arduinobot_msgs/arduinobot_msgs" TYPE DIRECTORY FILES "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_c/arduinobot_msgs/" REGEX "/[^/]*\\.h$")
 endif()
 
@@ -367,7 +375,23 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_msgs/srv" TYPE FILE FILES "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs/srv/EulerToQuaternion.idl")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_msgs/srv" TYPE FILE FILES "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs/srv/QuaternionToEuler.idl")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_msgs/srv" TYPE FILE FILES "/home/theo/arduinobot_ws/src/arduinobot_msgs/srv/AddTwoInts.srv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_msgs/srv" TYPE FILE FILES "/home/theo/arduinobot_ws/src/arduinobot_msgs/srv/EulerToQuaternion.srv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_msgs/srv" TYPE FILE FILES "/home/theo/arduinobot_ws/src/arduinobot_msgs/srv/QuaternionToEuler.srv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

@@ -3,7 +3,9 @@
   "output_dir": "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_py/arduinobot_msgs",
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs:srv/AddTwoInts.idl"
+    "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs:srv/AddTwoInts.idl",
+    "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs:srv/EulerToQuaternion.idl",
+    "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs:srv/QuaternionToEuler.idl"
   ],
   "ros_interface_dependencies": [
     "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
@@ -25,6 +27,8 @@
     "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
     "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs/srv/AddTwoInts.idl",
+    "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs/srv/EulerToQuaternion.idl",
+    "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs/srv/QuaternionToEuler.idl",
     "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"

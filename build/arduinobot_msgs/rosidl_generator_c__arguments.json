@@ -3,10 +3,14 @@
   "output_dir": "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_c/arduinobot_msgs",
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs:srv/AddTwoInts.idl"
+    "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs:srv/AddTwoInts.idl",
+    "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs:srv/EulerToQuaternion.idl",
+    "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs:srv/QuaternionToEuler.idl"
   ],
   "ros_interface_files": [
-    "/home/theo/arduinobot_ws/src/arduinobot_msgs/srv/AddTwoInts.srv"
+    "/home/theo/arduinobot_ws/src/arduinobot_msgs/srv/AddTwoInts.srv",
+    "/home/theo/arduinobot_ws/src/arduinobot_msgs/srv/EulerToQuaternion.srv",
+    "/home/theo/arduinobot_ws/src/arduinobot_msgs/srv/QuaternionToEuler.srv"
   ],
   "ros_interface_dependencies": [
     "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
@@ -34,11 +38,15 @@
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
     "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs/srv/AddTwoInts.idl",
+    "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs/srv/EulerToQuaternion.idl",
+    "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs/srv/QuaternionToEuler.idl",
     "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
   ],
   "type_description_tuples": [
-    "srv/AddTwoInts.idl:/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_type_description/arduinobot_msgs/srv/AddTwoInts.json"
+    "srv/AddTwoInts.idl:/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_type_description/arduinobot_msgs/srv/AddTwoInts.json",
+    "srv/EulerToQuaternion.idl:/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_type_description/arduinobot_msgs/srv/EulerToQuaternion.json",
+    "srv/QuaternionToEuler.idl:/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_type_description/arduinobot_msgs/srv/QuaternionToEuler.json"
   ]
 }

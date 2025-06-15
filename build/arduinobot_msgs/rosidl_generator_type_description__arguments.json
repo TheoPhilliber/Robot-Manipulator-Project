@@ -2,7 +2,9 @@
   "package_name": "arduinobot_msgs",
   "output_dir": "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_type_description/arduinobot_msgs",
   "idl_tuples": [
-    "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs:srv/AddTwoInts.idl"
+    "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs:srv/AddTwoInts.idl",
+    "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs:srv/EulerToQuaternion.idl",
+    "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs:srv/QuaternionToEuler.idl"
   ],
   "include_paths": [
     "service_msgs:/opt/ros/jazzy/share/service_msgs",
