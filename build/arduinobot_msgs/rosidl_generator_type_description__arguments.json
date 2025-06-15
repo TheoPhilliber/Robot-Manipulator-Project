@@ -4,10 +4,13 @@
   "idl_tuples": [
     "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs:srv/AddTwoInts.idl",
     "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs:srv/EulerToQuaternion.idl",
-    "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs:srv/QuaternionToEuler.idl"
+    "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs:srv/QuaternionToEuler.idl",
+    "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs:action/Fibonacci.idl"
   ],
   "include_paths": [
     "service_msgs:/opt/ros/jazzy/share/service_msgs",
-    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs"
   ]
 }

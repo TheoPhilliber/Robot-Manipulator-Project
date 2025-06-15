@@ -1,0 +1,5 @@
+  File "/home/theo/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/simple_action_server.py", line 32
+    def main()
+              ^
+SyntaxError: expected ':'
+

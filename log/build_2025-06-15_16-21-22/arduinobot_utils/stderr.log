@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:19 (install):
+  install TARGETS given target "angle_conversion" which does not exist.
+
+[0m
+gmake: *** [Makefile:254: cmake_check_build_system] Error 1
