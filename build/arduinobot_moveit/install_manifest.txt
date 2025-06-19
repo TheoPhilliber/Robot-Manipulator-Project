@@ -1,5 +1,6 @@
 /home/theo/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/launch/moveit.launch.py
 /home/theo/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/moveit.rviz
+/home/theo/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/planning_python_api.yaml
 /home/theo/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/moveit_controllers.yaml
 /home/theo/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/joint_limits.yaml
 /home/theo/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/arduinobot.srdf
