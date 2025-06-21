@@ -63,6 +63,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_msgs/action" TYPE FILE FILES "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_type_description/arduinobot_msgs/action/ArduinobotTask.json")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/arduinobot_msgs/arduinobot_msgs" TYPE DIRECTORY FILES "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_c/arduinobot_msgs/" REGEX "/[^/]*\\.h$")
 endif()
 
@@ -391,6 +395,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_msgs/action" TYPE FILE FILES "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs/action/ArduinobotTask.idl")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_msgs/srv" TYPE FILE FILES "/home/theo/arduinobot_ws/src/arduinobot_msgs/srv/AddTwoInts.srv")
 endif()
 
@@ -404,6 +412,10 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_msgs/action" TYPE FILE FILES "/home/theo/arduinobot_ws/src/arduinobot_msgs/action/Fibonacci.action")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_msgs/action" TYPE FILE FILES "/home/theo/arduinobot_ws/src/arduinobot_msgs/action/ArduinobotTask.action")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

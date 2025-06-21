@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_py/arduinobot_msgs/_arduinobot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_py/arduinobot_msgs/_arduinobot_msgs_s.ep.rosidl_typesupport_introspection_c.c"
   "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_py/arduinobot_msgs/action/__init__.py"
+  "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_py/arduinobot_msgs/action/_arduinobot_task.py"
+  "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_py/arduinobot_msgs/action/_arduinobot_task_s.c"
   "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_py/arduinobot_msgs/action/_fibonacci.py"
   "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_py/arduinobot_msgs/action/_fibonacci_s.c"
   "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_py/arduinobot_msgs/srv/__init__.py"

@@ -6,7 +6,8 @@
     "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs:srv/AddTwoInts.idl",
     "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs:srv/EulerToQuaternion.idl",
     "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs:srv/QuaternionToEuler.idl",
-    "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs:action/Fibonacci.idl"
+    "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs:action/Fibonacci.idl",
+    "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs:action/ArduinobotTask.idl"
   ],
   "ros_interface_dependencies": [
     "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
@@ -42,6 +43,7 @@
     "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs/srv/EulerToQuaternion.idl",
     "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs/srv/QuaternionToEuler.idl",
     "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs/action/Fibonacci.idl",
+    "/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs/action/ArduinobotTask.idl",
     "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl",
@@ -55,6 +57,7 @@
     "srv/AddTwoInts.idl:/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_type_description/arduinobot_msgs/srv/AddTwoInts.json",
     "srv/EulerToQuaternion.idl:/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_type_description/arduinobot_msgs/srv/EulerToQuaternion.json",
     "srv/QuaternionToEuler.idl:/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_type_description/arduinobot_msgs/srv/QuaternionToEuler.json",
-    "action/Fibonacci.idl:/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_type_description/arduinobot_msgs/action/Fibonacci.json"
+    "action/Fibonacci.idl:/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_type_description/arduinobot_msgs/action/Fibonacci.json",
+    "action/ArduinobotTask.idl:/home/theo/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_type_description/arduinobot_msgs/action/ArduinobotTask.json"
   ]
 }
