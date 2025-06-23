@@ -5,6 +5,7 @@
 /home/theo/arduinobot_ws/install/arduinobot_remote/lib/python3.12/site-packages/arduinobot_remote-0.0.0-py3.12.egg-info/SOURCES.txt
 /home/theo/arduinobot_ws/install/arduinobot_remote/lib/python3.12/site-packages/arduinobot_remote-0.0.0-py3.12.egg-info/PKG-INFO
 /home/theo/arduinobot_ws/install/arduinobot_remote/lib/python3.12/site-packages/arduinobot_remote/task_server.py
+/home/theo/arduinobot_ws/install/arduinobot_remote/lib/python3.12/site-packages/arduinobot_remote/alexa_interface.py
 /home/theo/arduinobot_ws/install/arduinobot_remote/lib/python3.12/site-packages/arduinobot_remote/__init__.py
 /home/theo/arduinobot_ws/install/arduinobot_remote/lib/arduinobot_remote/task_server.py
 /home/theo/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/launch/remote_interface.launch.py
