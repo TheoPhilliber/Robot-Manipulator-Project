@@ -17,7 +17,7 @@ def generate_launch_description():
 
     use_python_arg = DeclareLaunchArgument(
         "use_python",
-        default_value="False"
+        default_value="True"
     )
 
     is_sim = LaunchConfiguration("is_sim")
@@ -45,16 +45,26 @@ def generate_launch_description():
                     {"use_sim_time": is_sim}]
     )
 
+    """
     task_server_node = Node(
         package="arduinobot_remote",
         executable="task_server_node",
         condition=UnlessCondition(use_python),
         parameters=[{"use_sim_time": is_sim}]
     )
+    """
+
+    alexa_interface_node = Node(
+        package="arduinobot_remote",
+        executable="alexa_interface.py",
+        parameters=[{"use_sim_time": is_sim}]
+    )
+
 
     return LaunchDescription([
         use_python_arg,
         is_sim_arg,
         task_server_node_py,
-        task_server_node
+        #task_server_node,
+        alexa_interface_node,
     ])
