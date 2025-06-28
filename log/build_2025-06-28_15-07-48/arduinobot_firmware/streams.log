@@ -1,0 +1,15 @@
+[0.031s] Invoking command in '/home/theo/arduinobot_ws/build/arduinobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/theo/arduinobot_ws/build/arduinobot_firmware -- -j20 -l20
+[0.034s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.157s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.203s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:66 (message):
+[0.203s]   ament_python_install_package() the Python package folder
+[0.203s]   '/home/theo/arduinobot_ws/src/arduinobot_firmware/arduinobot_firmware'
+[0.203s]   doesn't contain an '__init__.py' file
+[0.203s] Call Stack (most recent call first):
+[0.203s]   /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[0.203s]   CMakeLists.txt:13 (ament_python_install_package)
+[0.203s] 
+[0.203s] [0m
+[0.203s] -- Configuring incomplete, errors occurred!
+[0.205s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.206s] Invoked command in '/home/theo/arduinobot_ws/build/arduinobot_firmware' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/theo/arduinobot_ws/build/arduinobot_firmware -- -j20 -l20

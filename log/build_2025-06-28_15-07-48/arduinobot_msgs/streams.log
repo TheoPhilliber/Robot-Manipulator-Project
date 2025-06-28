@@ -1,0 +1,24 @@
+[0.024s] Invoking command in '/home/theo/arduinobot_ws/build/arduinobot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/theo/arduinobot_ws/build/arduinobot_msgs -- -j20 -l20
+[0.057s] [  1%] Built target arduinobot_msgs__rosidl_generator_type_description
+[0.063s] [  1%] Built target ament_cmake_python_copy_arduinobot_msgs
+[0.079s] [  2%] Built target arduinobot_msgs__cpp
+[0.079s] [ 25%] Built target arduinobot_msgs__rosidl_generator_c
+[0.081s] [ 35%] Built target arduinobot_msgs__rosidl_typesupport_introspection_c
+[0.082s] [ 44%] Built target arduinobot_msgs__rosidl_typesupport_cpp
+[0.083s] [ 54%] Built target arduinobot_msgs__rosidl_typesupport_c
+[0.084s] [ 63%] Built target arduinobot_msgs__rosidl_typesupport_fastrtps_cpp
+[0.084s] [ 77%] Built target arduinobot_msgs__rosidl_typesupport_introspection_cpp
+[0.084s] [ 82%] Built target arduinobot_msgs__rosidl_typesupport_fastrtps_c
+[0.095s] [ 82%] Built target arduinobot_msgs
+[0.105s] [ 83%] Built target arduinobot_msgs__py
+[0.118s] [ 91%] Built target arduinobot_msgs__rosidl_generator_py
+[0.130s] [ 94%] Built target arduinobot_msgs_s__rosidl_typesupport_introspection_c
+[0.130s] [ 97%] Built target arduinobot_msgs_s__rosidl_typesupport_c
+[0.130s] [100%] Built target arduinobot_msgs_s__rosidl_typesupport_fastrtps_c
+[0.180s] running egg_info
+[0.191s] writing arduinobot_msgs.egg-info/PKG-INFO
+[0.191s] writing dependency_links to arduinobot_msgs.egg-info/dependency_links.txt
+[0.191s] writing top-level names to arduinobot_msgs.egg-info/top_level.txt
+[0.219s] reading manifest file 'arduinobot_msgs.egg-info/SOURCES.txt'
+[0.219s] writing manifest file 'arduinobot_msgs.egg-info/SOURCES.txt'
+[0.233s] [100%] Built target ament_cmake_python_build_arduinobot_msgs_egg
