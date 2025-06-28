@@ -67,7 +67,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/arduinobot_firmware" TYPE PROGRAM FILES "/home/theo/arduinobot_ws/src/arduinobot_firmware/arduinobot_firmware/simple_serial_transmitter.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/arduinobot_firmware" TYPE PROGRAM FILES
+    "/home/theo/arduinobot_ws/src/arduinobot_firmware/arduinobot_firmware/simple_serial_transmitter.py"
+    "/home/theo/arduinobot_ws/src/arduinobot_firmware/arduinobot_firmware/simple_serial_receiver.py"
+    )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

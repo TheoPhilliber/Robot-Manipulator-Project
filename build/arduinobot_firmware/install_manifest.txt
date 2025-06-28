@@ -7,7 +7,10 @@
 /home/theo/arduinobot_ws/install/arduinobot_firmware/lib/python3.12/site-packages/arduinobot_firmware/simple_serial_transmitter.py
 /home/theo/arduinobot_ws/install/arduinobot_firmware/lib/python3.12/site-packages/arduinobot_firmware/simple_serial_receiver/simple_serial_receiver.ino
 /home/theo/arduinobot_ws/install/arduinobot_firmware/lib/python3.12/site-packages/arduinobot_firmware/__init__.py
+/home/theo/arduinobot_ws/install/arduinobot_firmware/lib/python3.12/site-packages/arduinobot_firmware/simple_serial_receiver.py
+/home/theo/arduinobot_ws/install/arduinobot_firmware/lib/python3.12/site-packages/arduinobot_firmware/simple_serial_transmitter/simple_serial_transmitter.ino
 /home/theo/arduinobot_ws/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_transmitter.py
+/home/theo/arduinobot_ws/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_receiver.py
 /home/theo/arduinobot_ws/install/arduinobot_firmware/share/ament_index/resource_index/package_run_dependencies/arduinobot_firmware
 /home/theo/arduinobot_ws/install/arduinobot_firmware/share/ament_index/resource_index/parent_prefix_path/arduinobot_firmware
 /home/theo/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/ament_prefix_path.sh
