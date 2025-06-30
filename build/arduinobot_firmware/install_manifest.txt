@@ -4,6 +4,7 @@
 /home/theo/arduinobot_ws/install/arduinobot_firmware/lib/python3.12/site-packages/arduinobot_firmware-0.0.0-py3.12.egg-info/top_level.txt
 /home/theo/arduinobot_ws/install/arduinobot_firmware/lib/python3.12/site-packages/arduinobot_firmware-0.0.0-py3.12.egg-info/SOURCES.txt
 /home/theo/arduinobot_ws/install/arduinobot_firmware/lib/python3.12/site-packages/arduinobot_firmware-0.0.0-py3.12.egg-info/PKG-INFO
+/home/theo/arduinobot_ws/install/arduinobot_firmware/lib/python3.12/site-packages/arduinobot_firmware/robot_control.ino
 /home/theo/arduinobot_ws/install/arduinobot_firmware/lib/python3.12/site-packages/arduinobot_firmware/simple_serial_transmitter.py
 /home/theo/arduinobot_ws/install/arduinobot_firmware/lib/python3.12/site-packages/arduinobot_firmware/simple_serial_receiver/simple_serial_receiver.ino
 /home/theo/arduinobot_ws/install/arduinobot_firmware/lib/python3.12/site-packages/arduinobot_firmware/__init__.py

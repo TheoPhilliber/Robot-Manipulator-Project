@@ -7,7 +7,7 @@ from launch_ros.actions import Node
 from launch_ros.parameter_descriptions import ParameterValue
 from launch.substitutions import Command
 from ament_index_python.packages import get_package_share_directory
-
+from launch.actions import DeclareLaunchArgument
 
 def generate_launch_description():
 
@@ -27,6 +27,7 @@ def generate_launch_description():
                     "urdf",
                     "arduinobot.urdf.xacro",
                 ),
+                " is_sim:=False"
             ]
         ),
         value_type=str,
