@@ -1,0 +1,32 @@
+[0.018s] Invoking command in '/home/theo/arduinobot_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/theo/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy /usr/bin/cmake --build /home/theo/arduinobot_ws/build/arduinobot_controller -- -j20 -l20
+[0.073s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.265s] -- Found hardware_interface: 4.28.1 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[0.433s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.447s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.471s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.491s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.716s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.767s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.771s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[0.887s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.226s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[1.226s] -- Checking for module 'libserial'
+[1.237s] --   Found libserial, version 1.0.0
+[1.252s] [31mCMake Error at /opt/ros/jazzy/share/pluginlib/cmake/pluginlib_export_plugin_description_file.cmake:93 (set):
+[1.252s]   Syntax error in cmake code at
+[1.252s] 
+[1.252s]     /opt/ros/jazzy/share/pluginlib/cmake/pluginlib_export_plugin_description_file.cmake:94
+[1.252s] 
+[1.252s]   when parsing string
+[1.252s] 
+[1.252s]     ${__PLUGINLIB_CATEGORY_CONTENT__hardware_interface,}share/${PROJECT_NAME}/arduinobot_controller.xml\n
+[1.252s] 
+[1.252s]   Invalid character (',') in a variable name:
+[1.252s]   '__PLUGINLIB_CATEGORY_CONTENT__hardware_interface'
+[1.252s] Call Stack (most recent call first):
+[1.252s]   CMakeLists.txt:35 (pluginlib_export_plugin_description_file)
+[1.252s] 
+[1.252s] [0m
+[1.252s] -- Configuring incomplete, errors occurred!
+[1.256s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[1.258s] Invoked command in '/home/theo/arduinobot_ws/build/arduinobot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/theo/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy /usr/bin/cmake --build /home/theo/arduinobot_ws/build/arduinobot_controller -- -j20 -l20

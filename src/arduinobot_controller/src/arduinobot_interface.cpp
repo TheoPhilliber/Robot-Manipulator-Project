@@ -1,5 +1,7 @@
 #include "arduinobot_controller/arduinobot_interface.hpp"
 #include <hardware_interface/types/hardware_interface_type_values.hpp>
+#include <pluginlib/class_list_macros.hpp>
+
 
 namespace arduinobot_controller
 {
@@ -177,6 +179,6 @@ hardware_interface::return_type ArduinobotInterface::write(const rclcpp::Time & 
     prev_position_commands_ = position_commands_;
     return hardware_interface::return_type::OK;
 }
-
-
 }
+
+PLUGINLIB_EXPORT_CLASS(arduinobot_controller::ArduinobotInterface, hardware_interface::SystemInterface);

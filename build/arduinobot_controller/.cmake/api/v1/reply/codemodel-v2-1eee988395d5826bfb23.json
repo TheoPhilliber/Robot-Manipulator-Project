@@ -7,17 +7,18 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-4f50c17c4c5d050677d3.json",
+					"jsonFile" : "directory-.-9c7da868c958fa19eb13.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.20"
+						"string" : "3.15"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -33,7 +34,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -41,15 +43,22 @@
 			[
 				{
 					"directoryIndex" : 0,
+					"id" : "arduinobot_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arduinobot_controller-42fb39aa33ad3dcdf5cc.json",
+					"name" : "arduinobot_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "arduinobot_controller_uninstall::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-arduinobot_controller_uninstall-489bf015b7b87392f7d4.json",
+					"jsonFile" : "target-arduinobot_controller_uninstall-71606f29ff7ba5dc6f2d.json",
 					"name" : "arduinobot_controller_uninstall",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "uninstall::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-uninstall-9ea057bbb0714aac238e.json",
+					"jsonFile" : "target-uninstall-727794211eb7d6d1645b.json",
 					"name" : "uninstall",
 					"projectIndex" : 0
 				}

@@ -1,0 +1,16 @@
+[31mCMake Error at /opt/ros/jazzy/share/pluginlib/cmake/pluginlib_export_plugin_description_file.cmake:93 (set):
+  Syntax error in cmake code at
+
+    /opt/ros/jazzy/share/pluginlib/cmake/pluginlib_export_plugin_description_file.cmake:94
+
+  when parsing string
+
+    ${__PLUGINLIB_CATEGORY_CONTENT__hardware_interface,}share/${PROJECT_NAME}/arduinobot_controller.xml\n
+
+  Invalid character (',') in a variable name:
+  '__PLUGINLIB_CATEGORY_CONTENT__hardware_interface'
+Call Stack (most recent call first):
+  CMakeLists.txt:35 (pluginlib_export_plugin_description_file)
+
+[0m
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1
