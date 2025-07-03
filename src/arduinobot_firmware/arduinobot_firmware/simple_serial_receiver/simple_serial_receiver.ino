@@ -1,28 +1,121 @@
-#define LED_PIN 13
+#include <Servo.h>
+
+#define SERVO_BASE_PIN      8
+#define SERVO_SHOULDER_PIN  9
+#define SERVO_ELBOW_PIN     10
+#define SERVO_GRIPPER_PIN   11
+
+#define BASE_START        45
+#define SHOULDER_START    120
+#define ELBOW_START       0
+#define GRIPPER_START     65
+
+Servo base;
+Servo shoulder;
+Servo elbow;
+Servo gripper;
+
+uint8_t idx = 0;
+uint8_t value_idx = 0;
+char value[4] = "000";
+
+
+void reach_goal(Servo& motor, int goal)
+{
+  if(goal>=motor.read())
+  {
+    for(int pos = motor.read(); pos <= goal; pos++)
+    {
+      motor.write(pos);
+      delay(5);
+    }
+  }
+  if(goal<=motor.read())
+  {
+    for(int pos = motor.read(); pos >= goal; pos--)
+    {
+      motor.write(pos);
+      delay(5);
+    }
+  }
+}
+
+
+
 
 void setup() {
-  // put your setup code here, to run once:
-  pinMode(LED_PIN, OUTPUT);
-  digitalWrite(LED_PIN, LOW);
+  base.attach(SERVO_BASE_PIN);
+  shoulder.attach(SERVO_SHOULDER_PIN);
+  elbow.attach(SERVO_ELBOW_PIN);
+  gripper.attach(SERVO_GRIPPER_PIN);
+
+  base.write(BASE_START);
+  shoulder.write(SHOULDER_START);
+  elbow.write(ELBOW_START);
+  gripper.write(GRIPPER_START);
 
   Serial.begin(115200);
   Serial.setTimeout(1);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-  if (Serial.available())
+  if(Serial.available())
   {
-    int x = Serial.readString().toInt();
-    if(x==0)
+    char chr = Serial.read();
+
+    if(chr == 'b')
     {
-      digitalWrite(LED_PIN, LOW);
+      idx = 0;
+      value_idx = 0;
+    }
+    else if(chr == 's')
+    {
+      idx = 1;
+      value_idx = 0;
+    }
+    else if(chr == 'e')
+    {
+      idx = 2;
+      value_idx = 0;
+    }
+    else if(chr == 'g')
+    {
+      idx = 3;
+      value_idx = 0;
+    }
+    else if(chr == ',')
+    {
+      int val = atoi(value);
+      switch (idx) 
+      {
+        case 0:
+              reach_goal(base, val);
+              break;
+        case 1:
+              reach_goal(shoulder, val);
+              break;
+        case 2:
+              reach_goal(elbow, val);
+              break;
+        case 3:
+              reach_goal(gripper, val);
+              break;
+      }
+      value[0] = '0';
+      value[1] = '0';
+      value[2] = '0';
+      value[3] = '\0';
+
+
     }
     else
     {
-      digitalWrite(LED_PIN, HIGH);
+      value[value_idx] = chr;
+      value_idx++;
     }
+
+
   }
 
-  delay(0.1);
 }
+ 
