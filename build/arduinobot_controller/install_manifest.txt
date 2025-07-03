@@ -1,3 +1,4 @@
+/home/theo/arduinobot_ws/install/arduinobot_controller/include/include/arduinobot_controller/arduinobot_interface.hpp
 /home/theo/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/config/arduinobot_controllers.yaml
 /home/theo/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/launch/slider_controller.launch.py
 /home/theo/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/launch/controller.launch.py
